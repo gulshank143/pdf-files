@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.list-view,
+.detail-view {
+  flex: 1;
+  min-width: 300px;
+}

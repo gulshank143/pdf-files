@@ -1,0 +1,58 @@
+.pdf-list-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pdf-list {
+    list-style: none;
+    padding: 0;
+}
+
+.pdf-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.pdf-item:hover {
+    background: #3c9bee;
+}
+
+.thumbnail {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.pdf-details {
+    flex-grow: 1;
+}
+
+.pdf-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+}
+
+.pdf-author,
+.pdf-published {
+    margin: 4px 0;
+    color: #555;
+}
